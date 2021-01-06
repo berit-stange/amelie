@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFED00;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<rect x="128.35" y="-59.7" class="st0" width="33.5" height="33.5"/>
+<polygon class="st1" points="153.33,-102.98 143.87,-86.61 162.78,-86.61 "/>
+<polygon class="st1" points="154.97,-103.86 164.42,-87.48 173.88,-103.86 "/>
+<polygon class="st1" points="153.36,-106.94 143.9,-123.31 162.81,-123.31 "/>
+<polygon class="st1" points="154.62,-105.88 164.08,-122.26 173.53,-105.88 "/>
+<polygon class="st1" points="132.84,-103.8 142.29,-87.43 151.75,-103.8 "/>
+<polygon class="st1" points="132.94,-105.89 142.39,-122.27 151.85,-105.89 "/>
+<circle class="st0" cx="50.38" cy="-89.5" r="50"/>
+<line class="st2" x1="50.38" y1="-23.67" x2="50.38" y2="-155.33"/>
+<line class="st2" x1="116.22" y1="-89.5" x2="-15.45" y2="-89.5"/>
+<line class="st2" x1="96.94" y1="-42.95" x2="3.83" y2="-136.05"/>
+<line class="st2" x1="96.94" y1="-136.05" x2="3.83" y2="-42.95"/>
+<g>
+	<path class="st0" d="M139.85,145.8L48.03,53.97C25.3,78.1,11.05,110.28,10,145.8H139.85z"/>
+	<path class="st0" d="M145.8,139.85V10c-35.51,1.05-67.69,15.3-91.82,38.03L145.8,139.85z"/>
+	<path class="st0" d="M154.2,10v129.85l91.82-91.82C221.9,25.3,189.72,11.05,154.2,10z"/>
+	<path class="st0" d="M139.85,154.2H10c1.05,35.51,15.3,67.69,38.03,91.82L139.85,154.2z"/>
+	<path class="st0" d="M160.15,154.2l91.82,91.82c22.73-24.13,36.98-56.31,38.03-91.82H160.15z"/>
+	<path class="st0" d="M145.8,160.15l-91.82,91.82C78.1,274.7,110.28,288.95,145.8,290V160.15z"/>
+	<path class="st0" d="M160.15,145.8H290c-1.05-35.51-15.3-67.69-38.03-91.82L160.15,145.8z"/>
+	<path class="st0" d="M154.2,160.15V290c35.51-1.05,67.69-15.3,91.82-38.03L154.2,160.15z"/>
+</g>
+</svg>
