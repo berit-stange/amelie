@@ -1,6 +1,6 @@
 :root {
   --primary-color: #ffffff;
-  --secondary-color: gainsboro;
+  --secondary-color: #f2f2f2;
   --dark-color: #002238;
   --light-color: #ffffff;  
   --font-sans: 'Karla', sans-serif; 
@@ -33,7 +33,7 @@ h1 {
   font-family: var(--font-serif);
   font-size:  var(--font-big);
   font-weight: var(--font-heavy);
-  color: var(--primary-color);
+  color: var(--dark-color);
   line-height: 1em;
 }
 
@@ -41,14 +41,14 @@ h2 {
   font-family: var(--font-serif);
   font-size: var(--font-medium);
 /*  font-weight: var(--font-heavy);*/
-  color: var(--primary-color);
+  color: var(--dark-color);
 }
 
 h3 {
   font-family: var(--font-serif);
   font-size: var(--font-small);
   font-weight: var(--font-heavy);
-  color: var(--primary-color);
+  color: var(--dark-color);
 }
 
 div {
@@ -119,7 +119,7 @@ button:focus,
 }
 
 .background-image{
-  background-image: url(/img/amelie-01.jpg);
+  background-image: url(../img/amelie-01.jpg);
   background-size: cover;
   padding: 0;
     height: 70vh;
@@ -289,6 +289,11 @@ button:focus,
     padding-bottom: 200px;
     height: 100%;
 }
+
+.background-image-text {
+    color: var(--light-color);
+}
+
 .main-content__table{
     margin: 0 auto;
 }
@@ -297,6 +302,16 @@ button:focus,
 @media all and (max-width: 500px) {
   .grid {
     grid-template-columns: 1fr;
+  }
+  .logo a{
+    width: 50px;
+    } 
+    a{
+        font-size: var(--font-small);
+    }
+  .page-header__item {
+  flex: 0 1 100px;
+  text-decoration: none;
   }
 }
 

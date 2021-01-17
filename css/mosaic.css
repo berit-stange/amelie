@@ -1,15 +1,4 @@
-:root {
-  --primary-color: #002238;
-  --secondary-color: gainsboro;
-  --dark-color: #002238;
-  --font-sans: 'Karla', sans-serif; 
-  --font-serif: 'Lora', serif; 
-/*  --font-big: 60px;  */
-/*  --font-medium: 30px;  */
-/*  --font-small: 15px;*/
-/*  --font-heavy: 700;*/
-/*  --font-light: 400;  */
-}
+
 
 /* ===================*/
 /* Main Content area */
@@ -32,7 +21,7 @@
 }
 
 .mosaic-item {
-  background-color: var(--secondary-color);
+  background-color: var(--dark-color);
   color: var(--primary-color);
   font-weight: var(--font-light);
   display: flex;
@@ -150,11 +139,11 @@
 
 
 .background-image-1{
-  background-image: url(/img/amelie-01.jpg);
+  background-image: url(../img/amelie-01.jpg);
   background-size: cover;
 }
 .background-image-2{
-  background-image: url(/img/amelie-02.png);
+  background-image: url(../img/amelie-02.png);
   background-size: cover;
 }
 .background-image-2:hover {
@@ -162,11 +151,11 @@
   color: var(--light-color);
 }
 .background-image-3{
-  background-image: url(/img/amelie-03.png);
+  background-image: url(../img/amelie-03.png);
   background-size: cover;
 }
 .background-image-4{
-  background-image: url(/img/amelie-04.png);
+  background-image: url(../img/amelie-04.png);
   background-size: cover;
 }
 .background-image-5{
