@@ -168,10 +168,9 @@ button:focus,
 
 .page-header {
   background-color: var(--secondary-color);
-  display: flex;
+  display: flex; align-items: center; justify-content: center; 
   width: 100%;
   padding: 20px;
-  padding-bottom: 0px;
 /*  border-bottom: 1px solid;*/
   border-color: var(--primary-color); 
 }
