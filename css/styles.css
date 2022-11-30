@@ -25,7 +25,7 @@
   --light-color: #ffffff;
   --font-sans: "Lora", serif;
   --font-serif: "Lora", serif;
-  --font-big: 4em;
+  --font-big: 3em;
   --font-medium: 1.2em;
   --font-small: 1em;
   --font-heavy: 700;
@@ -176,7 +176,7 @@ button:focus,
 }
 
 .profile__text {
-  display: flex;
+  text-align: center;
   padding-top: 150px;
   margin-top: 50px;
   max-width: 900px;
@@ -308,7 +308,7 @@ button:focus,
 }
 /* ------------------------------------center content about.html----*/
 .main-content {
-  max-width: 900px;
+  max-width: 700px;
   margin: 0 auto;
   text-align: center;
   padding-top: 20px;
@@ -329,8 +329,9 @@ button:focus,
   .grid {
     grid-template-columns: 1fr;
   }
-  .logo a {
-    width: 50px;
+  .logo {
+    width: 270px;
+    font-size: var(--font-small);
   }
   a {
     font-size: var(--font-small);
@@ -340,11 +341,13 @@ button:focus,
     text-decoration: none;
   }
 }
+/* ----------------------------------------------------------------- */
 @media all and (min-width: 500px) and (max-width: 750px) {
   .grid {
     grid-template-columns: 1fr 1fr;
   }
 }
+/* ----------------------------------------------------------------- */
 /*shared code*/
 @media all and (max-width: 750px) {
   .grid {
@@ -355,7 +358,10 @@ button:focus,
     grid-row: auto/auto;
   }
   h1 {
-    font-size: var(--font-medium);
+    font-size: 2.2em;
+  }
+  h2 {
+    font-size: 1.8;
   }
 }
 /* ------------------------------------animations----*/
@@ -380,50 +386,4 @@ button:focus,
           animation: 40s lemon-move infinite alternate linear;
 }
 
-/* ----------------------2020-12-27 https://css-tricks.com/almanac/properties/a/animation/----*/
-.element1 {
-  height: 100px;
-  width: 100px;
-  margin: 0 auto;
-  background-color: var(--primary-color);
-  -webkit-animation-name: stretch;
-          animation-name: stretch;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
-  -webkit-animation-delay: 0;
-          animation-delay: 0;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-fill-mode: none;
-          animation-fill-mode: none;
-  -webkit-animation-play-state: running;
-          animation-play-state: running;
-}
-
-@-webkit-keyframes stretch {
-  0% {
-    transform: scale(0.3);
-    background-color: var(--primary-color);
-    border-radius: 100%;
-  }
-  100% {
-    transform: scale(1.5);
-    /*    background-color: var(--secondary-color);*/
-  }
-}
-
-@keyframes stretch {
-  0% {
-    transform: scale(0.3);
-    background-color: var(--primary-color);
-    border-radius: 100%;
-  }
-  100% {
-    transform: scale(1.5);
-    /*    background-color: var(--secondary-color);*/
-  }
-}/*# sourceMappingURL=styles.css.map */
+/* ----------------------2020-12-27 https://css-tricks.com/almanac/properties/a/animation/----*//*# sourceMappingURL=styles.css.map */

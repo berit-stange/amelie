@@ -1,12 +1,10 @@
-
-
 /* ===================*/
 /* Main Content area */
 /* ===================*/
 
-.mosaic-content{
-/*    flex: 1 1 100%;*/
-/*    min-height: 100vh;*/
+.mosaic-content {
+  /*    flex: 1 1 100%;*/
+  /*    min-height: 100vh;*/
 }
 
 /* ===================*/
@@ -29,164 +27,185 @@
   align-items: center;
   font-size: 2em;
   padding: 30px;
-/*    width: 100px;*/
-/*  background-size: cover;*/
-/*  background-position: top left;*/
-/*  transition: all ease-in-out 300ms;*/
-/*  position: relative;*/
-/*  z-index: 10;*/
-    transition: 0.5s background-color;
-    transition: 0.5s color;
+  min-height: 100px;
+  /*    width: 100px;*/
+  /*  background-size: cover;*/
+  /*  background-position: top left;*/
+  /*  transition: all ease-in-out 300ms;*/
+  /*  position: relative;*/
+  /*  z-index: 10;*/
+  transition: 0.5s background-color;
+  transition: 0.5s color;
 }
+
 .mosaic-item:hover {
   background-color: var(--primary-color);
   color: var(--dark-color);
-    
+
 }
-  .small {
-    grid-row: span 1;
-    grid-column: span 1;
-  }
-  
-  .medium {
-   grid-row: span 2;
-    grid-column: span 2;
-  }
-  
-  .large {
-    grid-row: span 3;
-    grid-column: span 3;
-  }
-  
-  .tall {
-    grid-row: span 3;
-    grid-column: span 2;
-  }
-  
-  .wide {
-    grid-row: span 2;
-    grid-column: span 3;
-  }
-    
+
+.small {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+
+.medium {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+.large {
+  grid-row: span 3;
+  grid-column: span 3;
+}
+
+.tall {
+  grid-row: span 3;
+  grid-column: span 2;
+}
+
+.wide {
+  grid-row: span 2;
+  grid-column: span 3;
+}
+
 .page-footer {
-    clear: both;
-    width: 100%;
-    display: flex;
-/*    min-height: 100vh;*/
-    flex-direction: column;
-    text-align: center;
+  clear: both;
+  width: 100%;
+  display: flex;
+  /*    min-height: 100vh;*/
+  flex-direction: column;
+  text-align: center;
 }
 
 
 
 @media all and (max-width: 500px) {
   .mosaic-portfolio {
-/*    grid-template-columns: 1fr 1fr;*/
-      
-  grid-template-rows: repeat(10, 1fr);
-  grid-template-columns: repeat(1, 1fr);
+    /*    grid-template-columns: 1fr 1fr;*/
+
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
-@media all and (min-width: 500px) and (max-width: 750px){
+
+@media all and (min-width: 500px) and (max-width: 750px) {
   .mosaic-portfolio {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr;  
+    grid-template-rows: 2fr;
   }
-   .small{
+
+  .small {
     grid-template-columns: 1fr;
     grid-template-rows: 2fr;
     grid-row: auto;
     grid-column: auto;
   }
-  
+
   .medium {
-   grid-template-columns: 2fr; 
-   grid-template-rows: 2fr;   
-   grid-row: auto;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+    grid-row: auto;
     grid-column: auto;
   }
-  
+
   .large {
     grid-template-columns: 2fr;
     grid-template-columns: 2fr;
     grid-row: auto;
     grid-column: auto;
   }
-    .tall {
+
+  .tall {
     grid-row: auto;
     grid-column: auto;
   }
-  
+
   .wide {
     grid-row: auto;
     grid-column: auto;
   }
-    
+
 }
+
 /*shared code*/
 @media all and (max-width: 750px) {
   .mosaic-portfolio {
     grid-gap: 10px;
   }
+
   .mosaic-item:last-child {
-/*    grid-column: auto / auto;*/
-/*    grid-row: auto / auto;*/
+    /*    grid-column: auto / auto;*/
+    /*    grid-row: auto / auto;*/
   }
+
   h1 {
     font-size: var(--font-medium);
   }
 }
 
 
-.background-image-1{
+.background-image-1 {
   background-image: url(../img/amelie-01.jpg);
   background-size: cover;
 }
-.background-image-2{
+
+.background-image-2 {
   background-image: url(../img/amelie-02.png);
   background-size: cover;
 }
+
 .background-image-2:hover {
   background-color: var(--dark-color);
   color: var(--light-color);
 }
-.background-image-3{
+
+.background-image-3 {
   background-image: url(../img/amelie-03.png);
   background-size: cover;
 }
-.background-image-4{
+
+.background-image-4 {
   background-image: url(../img/amelie-04.png);
   background-size: cover;
 }
-.background-image-5{
+
+.background-image-5 {
   background-image: url(/img/amelie-05.png);
   background-size: cover;
 }
-.background-image-6{
+
+.background-image-6 {
   background-image: url(/img/amelie-06.png);
   background-size: cover;
 }
-.background-image-7{
+
+.background-image-7 {
   background-image: url(/img/amelie-07.png);
   background-size: cover;
 }
-.background-image-8{
+
+.background-image-8 {
   background-image: url(/img/amelie-08.png);
   background-size: cover;
 }
-.background-image-9{
+
+.background-image-9 {
   background-image: url(/img/amelie-09.png);
   background-size: cover;
 }
-.background-image-10{
+
+.background-image-10 {
   background-image: url(/img/amelie-10.png);
   background-size: cover;
 }
-.background-image-11{
+
+.background-image-11 {
   background-image: url(/img/amelie-11.png);
   background-size: cover;
 }
-.background-image-12{
+
+.background-image-12 {
   background-image: url(/img/amelie-12.png);
   background-size: cover;
 }
