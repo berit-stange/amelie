@@ -242,6 +242,13 @@ button:focus,
   left: 0;
   padding-top: 35px;
 }
+.page-footer div {
+  display: flex;
+  min-width: 100vw;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+}
 
 .page-footer p {
   color: var(--secondary-color);
