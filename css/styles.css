@@ -337,8 +337,13 @@ button:focus,
     font-size: var(--font-small);
   }
   .page-header__item {
-    flex: 0 1 100px;
     text-decoration: none;
+  }
+  .navigation-list__item {
+    padding: 0px;
+  }
+  .page-header {
+    padding: 10px 15px 10px 15px;
   }
   .profile__text {
     padding-top: 20px;
