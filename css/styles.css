@@ -142,6 +142,7 @@ button:focus,
 .background-image {
   background-image: url(../img/amelie-01.jpg);
   background-size: cover;
+  background-position-y: center;
   padding: 0;
   height: 70vh;
 }
@@ -339,6 +340,9 @@ button:focus,
     flex: 0 1 100px;
     text-decoration: none;
   }
+  .profile__text {
+    padding-top: 20px;
+  }
 }
 /* ----------------------------------------------------------------- */
 @media all and (min-width: 500px) and (max-width: 750px) {
@@ -364,6 +368,9 @@ button:focus,
   }
   .profile__text p {
     font-size: var(--font-small);
+  }
+  .background-image {
+    background-position: center;
   }
 }
 /* ------------------------------------animations----*/
