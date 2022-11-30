@@ -344,7 +344,8 @@ button:focus,
 /* ------------------------------------center content about.html----*/
 
 .main-content {
-  max-width: 700px;
+  // max-width: 700px;
+  max-width: 70vw;
   margin: 0 auto;
   text-align: center;
   padding-top: 20px;
@@ -408,6 +409,10 @@ button:focus,
 
   h2 {
     font-size: 1.8;
+  }
+
+  .profile__text p {
+    font-size: var(--font-small);
   }
 }
 
