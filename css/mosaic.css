@@ -82,11 +82,31 @@
 
 @media all and (max-width: 500px) {
   .mosaic-portfolio {
-    /*    grid-template-columns: 1fr 1fr;*/
-
-    grid-template-rows: repeat(10, 1fr);
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    /* grid-template-rows: repeat(10, 1fr); */
+    /* grid-template-columns: repeat(1, 1fr); */
   }
+
+  .mosaic-item {
+  min-height: 150px;
+}
+
+  .small {
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+
+  .medium {
+    /* grid-row: span 2; */
+    grid-column: span 3;
+  }
+
+  .tall {
+    grid-row: span 1;
+    grid-column: span 3;
+  }
+
 }
 
 @media all and (min-width: 500px) and (max-width: 750px) {

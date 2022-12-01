@@ -326,8 +326,12 @@ button:focus,
 
 /* -----------------------------------------------------2020-12-15 media queries ----*/
 @media all and (max-width: 500px) {
+  .main-content {
+    max-width: 100vw;
+  }
   .grid {
     grid-template-columns: 1fr;
+    grid-gap: 5px;
   }
   .logo {
     width: 270px;
