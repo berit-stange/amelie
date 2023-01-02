@@ -2,10 +2,10 @@
 /* Main Content area */
 /* ===================*/
 
-.mosaic-content {
-  /*    flex: 1 1 100%;*/
-  /*    min-height: 100vh;*/
-}
+/*.mosaic-content {
+      flex: 1 1 100%;
+     min-height: 100vh;
+}  */
 
 /* ===================*/
 /* Portfolio */
@@ -89,8 +89,8 @@
   }
 
   .mosaic-item {
-  min-height: 150px;
-}
+    min-height: 150px;
+  }
 
   .small {
     grid-row: span 2;
@@ -154,10 +154,10 @@
     grid-gap: 10px;
   }
 
-  .mosaic-item:last-child {
-    /*    grid-column: auto / auto;*/
-    /*    grid-row: auto / auto;*/
-  }
+  /*  .mosaic-item:last-child { */
+  /*    grid-column: auto / auto;*/
+  /*    grid-row: auto / auto;*/
+  /*  } */
 
   h1 {
     font-size: var(--font-medium);
@@ -171,7 +171,7 @@
 }
 
 .background-image-2 {
-  background-image: url(../img/amelie-02.png);
+  background-image: url(../img/amelie-02.jpg);
   background-size: cover;
 }
 
@@ -181,51 +181,51 @@
 }
 
 .background-image-3 {
-  background-image: url(../img/amelie-03.png);
+  background-image: url(../img/amelie-03.jpg);
   background-size: cover;
 }
 
 .background-image-4 {
-  background-image: url(../img/amelie-04.png);
+  background-image: url(../img/amelie-04.jpg);
   background-size: cover;
 }
 
 .background-image-5 {
-  background-image: url(/img/amelie-05.png);
+  background-image: url(/img/amelie-05.jpg);
   background-size: cover;
 }
 
 .background-image-6 {
-  background-image: url(/img/amelie-06.png);
+  background-image: url(/img/amelie-06.jpg);
   background-size: cover;
 }
 
 .background-image-7 {
-  background-image: url(/img/amelie-07.png);
-  background-size: cover;
+  background-image: url(/img/amelie-07.jpg);
+
 }
 
 .background-image-8 {
-  background-image: url(/img/amelie-08.png);
+  background-image: url(/img/amelie-08.jpg);
   background-size: cover;
 }
 
 .background-image-9 {
-  background-image: url(/img/amelie-09.png);
+  background-image: url(/img/amelie-09.jpg);
   background-size: cover;
 }
 
 .background-image-10 {
-  background-image: url(/img/amelie-10.png);
+  background-image: url(/img/amelie-10.jpg);
   background-size: cover;
 }
 
 .background-image-11 {
-  background-image: url(/img/amelie-11.png);
+  background-image: url(/img/amelie-11.jpg);
   background-size: cover;
 }
 
 .background-image-12 {
-  background-image: url(/img/amelie-12.png);
+  background-image: url(/img/amelie-12.jpg);
   background-size: cover;
 }
