@@ -324,6 +324,11 @@ button:focus,
   margin: 0 auto;
 }
 
+/* ------------------------------------center content about.html----*/
+.datenschutz p {
+  text-align: left;
+}
+
 /* -----------------------------------------------------2020-12-15 media queries ----*/
 @media all and (max-width: 500px) {
   .main-content {
