@@ -248,6 +248,11 @@ button:focus,
   flex-direction: row;
   align-content: center;
   justify-content: space-evenly;
+  margin: 0 auto;
+  max-width: 720px;
+}
+.page-footer a {
+  padding: 15px;
 }
 
 .page-footer p {
