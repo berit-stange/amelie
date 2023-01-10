@@ -43,7 +43,7 @@ body {
   line-height: 1.6;
   background-color: var(--secondary-color);
   color: var(--primary-color);
-  margin: 0;
+  margin: 0 auto;
   position: relative;
   /*  padding-bottom: 6rem;*/
   min-height: 100vh;
@@ -306,9 +306,9 @@ button:focus,
     grid-row: 1/3;
   }
 }
-/* ------------------------------------center content about.html----*/
+/* ------------------------------------center content ----*/
 .main-content {
-  max-width: 70vw;
+  max-width: 720px;
   margin: 0 auto;
   text-align: center;
   padding-top: 20px;
@@ -324,7 +324,7 @@ button:focus,
   margin: 0 auto;
 }
 
-/* ------------------------------------center content about.html----*/
+/* ------------------------------------  content datenschutzerklaerung.html----*/
 .datenschutz p {
   text-align: left;
 }

@@ -64,10 +64,12 @@ body {
   line-height: 1.6;
   background-color: var(--secondary-color);
   color: var(--primary-color);
-  margin: 0;
+  margin: 0 auto;
   position: relative;
   /*  padding-bottom: 6rem;*/
   min-height: 100vh;
+  // max-width: 900px;
+  // max-width: 70vw;
 }
 
 h1 {
@@ -339,11 +341,11 @@ button:focus,
   }
 }
 
-/* ------------------------------------center content about.html----*/
+/* ------------------------------------center content ----*/
 
 .main-content {
-  // max-width: 700px;
-  max-width: 70vw;
+  max-width: 720px;
+  // max-width: 70vw;
   margin: 0 auto;
   text-align: center;
   padding-top: 20px;
@@ -359,7 +361,7 @@ button:focus,
   margin: 0 auto;
 }
 
-/* ------------------------------------center content about.html----*/
+/* ------------------------------------  content datenschutzerklaerung.html----*/
 .datenschutz p {
   text-align: left;
 }
