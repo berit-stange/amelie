@@ -206,7 +206,8 @@ button:focus,
   text-align: center;
   padding-top: 150px;
   margin-top: 50px;
-  max-width: 70vw;
+  // margin-bottom: 300px;
+  // max-width: 70vw;
 }
 
 .profile__text p {
@@ -262,17 +263,17 @@ button:focus,
   background-color: var(--dark-color);
   color: var(--secondary-color);
   width: 100%;
-  height: 150px;
-  position: absolute;
+  // height: 150px;
+  position: relative;
   right: 0;
   bottom: 0;
   left: 0;
   padding-top: 35px;
 
-  div {
+  .footer-link-box {
     display: flex;
-    // width: 100%; //bringt Verschiebung
-    flex-direction: row;
+    width: 100vw; //bringt Verschiebung
+    flex-direction: column;
     align-content: center;
     justify-content: space-evenly;
     // text-align: center;
@@ -448,50 +449,3 @@ button:focus,
     background-position: center;
   }
 }
-
-
-/* ------------------------------------animations----*/
-
-@keyframes lemon-move {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.lemon-turn {
-  animation: 40s lemon-move infinite alternate linear;
-}
-
-
-/* ----------------------2020-12-27 https://css-tricks.com/almanac/properties/a/animation/----*/
-// .element1 {
-//   height: 100px;
-//   width: 100px;
-//   margin: 0 auto;
-//   background-color: var(--primary-color);
-//   animation-name: stretch;
-//   animation-duration: 3s;
-//   animation-timing-function: ease-out;
-//   animation-delay: 0;
-//   animation-direction: alternate;
-//   animation-iteration-count: infinite;
-//   animation-fill-mode: none;
-//   animation-play-state: running;
-// }
-
-// @keyframes stretch {
-//   0% {
-//     transform: scale(.3);
-//     background-color: var(--primary-color);
-//     border-radius: 100%;
-//   }
-
-//   100% {
-//     transform: scale(1.5);
-//     /*    background-color: var(--secondary-color);*/
-//   }
-// }
