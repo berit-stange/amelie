@@ -244,11 +244,11 @@ button:focus,
 .page-footer .footer-link-box {
   display: flex;
   width: 100vw;
-  flex-direction: column;
+  flex-direction: row;
   align-content: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin: 0 auto;
-  max-width: 720px;
+  max-width: 750px;
 }
 .page-footer a {
   padding: 15px;
@@ -389,5 +389,11 @@ button:focus,
   }
   .background-image {
     background-position: center;
+  }
+  .page-footer .footer-link-box {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    max-width: 500px;
   }
 }/*# sourceMappingURL=styles.css.map */

@@ -273,12 +273,12 @@ button:focus,
   .footer-link-box {
     display: flex;
     width: 100vw; //bringt Verschiebung
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     // text-align: center;
     margin: 0 auto;
-    max-width: 720px;
+    max-width: 750px;
   }
 
   a {
@@ -410,6 +410,7 @@ button:focus,
   .profile__text {
     padding-top: 20px;
   }
+
 }
 
 /* ----------------------------------------------------------------- */
@@ -448,4 +449,14 @@ button:focus,
   .background-image {
     background-position: center;
   }
+
+  .page-footer {
+    .footer-link-box {
+      display: flex;
+      width: 100vw;
+      flex-direction: column;
+      max-width: 500px;
+    }
+  }
+
 }
