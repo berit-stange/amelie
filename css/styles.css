@@ -235,7 +235,7 @@ button:focus,
   background-color: var(--dark-color);
   color: var(--secondary-color);
   width: 100%;
-  position: relative;
+  position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
