@@ -44,6 +44,10 @@
 
 }
 
+.mosaic-item h2 {
+  font-size: 0.7em;
+}
+
 .small {
   grid-row: span 1;
   grid-column: span 1;
